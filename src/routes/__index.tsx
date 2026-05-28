@@ -6,8 +6,19 @@ export const Route = createFileRoute('/__index')({
 
 function Home() {
   return (
-    <div>
-      <h1>QuizFlow AI</h1>
+    <div
+      style={{
+        minHeight: '100vh',
+        background: '#0f172a',
+        color: 'white',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: '48px',
+        fontWeight: 'bold',
+      }}
+    >
+      QuizFlow AI
     </div>
   )
 }
